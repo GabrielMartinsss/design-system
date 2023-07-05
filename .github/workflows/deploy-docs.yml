@@ -22,6 +22,9 @@ jobs:
       - run: export NODE_OPTIONS=--openssl-legacy-provider
 
       - run: npm run build
+        env: 
+          TURBO_TOKEN: MSIys0uTNe03jEHjk05znekQ
+          TURBO_TEAM: gabrielmartinsss
 
       - name: Deploy storybook
         working-directory: ./packages/docs
