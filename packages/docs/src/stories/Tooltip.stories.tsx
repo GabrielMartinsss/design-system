@@ -17,7 +17,6 @@ export default {
           css={{
             display: 'flex',
             flexDirection: 'row',
-            backgroundColor: 'transparent',
             gap: '$2',
           }}
         >
